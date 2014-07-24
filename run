@@ -1,4 +1,0 @@
-#!/bin/sh
-
-exec /sbin/setuser nobody \
-    /opt/logstash/bin/logstash agent -f /etc/logstash/logstash.conf >> /var/log/logstash.log 2>&1
